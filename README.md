@@ -1,24 +1,22 @@
 # vue-admin
+这是一个vue写的后台管理系统
 
-## Project setup
-```
-npm install
-```
+## 主要功能
+- 登录注册
+- 权限管理
+- 内容管理
+- 用户管理
+- 分类管理
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 技术栈实现
+- Vue
+- Vue-Router
+- Vuex
+- axios
+- Element UI
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 收获
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. 掌握Vue核心技术的使用方法。
+2. 学会掌握常用的权限管理方法。
+3. 学会自己解决问题的方法。
