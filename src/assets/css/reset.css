@@ -46,3 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+body{
+	background-color:rgba(80, 80, 80, 0.2);
+	background:url("https://cdn.jsdelivr.net/gh/lijiaxu1996/img-hosting@master/img/sky.mp4") no-repeat center 0px;
+}
