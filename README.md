@@ -15,8 +15,43 @@
 - axios
 - Element UI
 
+## Git创建分支
+    git checkout -b login
+    git branch
+
+## Vuecli4实现自适应布局
+```bash
+npm install amfe-flexible --S
+npm install postcss-pxtorem --S
+
+import 'amfe-flexible' 
+
+module.exports = {
+    css: {
+      loaderOptions: {
+        postcss: {
+          plugins: [
+            require("autoprefixer")({
+              // 配置使用 autoprefixer
+              overrideBrowserslist: ["last 15 versions"] 
+            }),
+            require("postcss-pxtorem")({
+              rootValue: 100, // 换算的基数
+              propList: ["*"],
+            //exclude: /node_modules/  //配置无需转换
+            })
+          ]
+        }
+      }
+    }
+  };
+
+
+```
+
 ## 收获
 
 1. 掌握Vue核心技术的使用方法。
 2. 学会掌握常用的权限管理方法。
 3. 学会自己解决问题的方法。
+4. 学会rem布局原理和Vuecli里面插件使用办法。
