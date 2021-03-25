@@ -5,12 +5,24 @@
 </template>
 
 <script>
-
+import jwtDecode from 'jwt-decode'
 
 export default {
-  name: 'app'
+  name: 'app',
+  created(){    
+    if(localStorage.getItem('token')){      
+        const decode = jwtDecode(localStorage.getItem('token'))      
+        this.$store.dispatch('setUser',decode)    
+    }  
+    // location.reload() 
+}
 }
 </script>
 
-<style>
+<style lang="less">
+  html,body,#app{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
 </style>
