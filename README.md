@@ -14,6 +14,15 @@
 - 完成了对登录表单的数据校验（使用elemet UI进行前端校验）
 - 利用axios进行后台数据接口的调试。
 - 完成了对应的消息提示框
-- 完成了退出功能，这里主要使用了sessionStorage对后台token进行控制。
+- 完成了退出功能，这里主要使用了Vuex+localStorage对后台token进行控制。
+- 完成了欢迎页面用户名的显示功能。
+#### 1.1技术难点
+在利用Vuex和localStorage对用户名进行显示的时候，页面一旦刷新就会使得Vuex里面的保存的数据丢失,解决办法就是在App.vue里面从新对Vuex进行dispatch
 ![](https://cdn.jsdelivr.net/gh/lijiaxu1996/img-hosting@master//vue16.gif)
-### 2.后台主页
+### 2.用户管理功能
+- 完成了ElementUI的页面布局。
+- 完成了用户的添加功能
+- 完成了用户的删除功能
+- 完成了用户的编辑功能
+- 完成了用户的查询功能
+- 查询功能实现方法是主要是模糊查询
