@@ -26,4 +26,5 @@
 - 完成了用户的编辑功能
 - 完成了用户的查询功能
 - 查询功能实现方法是主要是模糊查询
+- 完成了分页功能
 ![](https://cdn.jsdelivr.net/gh/lijiaxu1996/img-hosting@master//vue17.gif)
