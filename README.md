@@ -28,3 +28,8 @@
 - 查询功能实现方法是主要是模糊查询
 - 完成了分页功能
 ![](https://cdn.jsdelivr.net/gh/lijiaxu1996/img-hosting@master//vue17.gif)
+### 3.系统管理
+- 完成了角色获取（使用MOCK）
+- 完成了菜单获取(真实接口)
+### 4. 部署上线成功
+http://47.93.62.50:8080/vue-admin/#/login
